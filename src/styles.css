@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.skyblue-toolbar {
+    background-color: rgb(79, 193, 239);
+    color: white;
+  }
+  .toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  .success-toast, .error-toast {
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .success-toast {
+    background-color: #43a047;
+    color: white;
+  }
+  
+  .error-toast {
+    background-color: #d32f2f;
+    color: white;
+  }
+  
+  :host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 20px; /* Adjust the margin as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  } 

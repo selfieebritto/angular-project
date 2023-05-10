@@ -14,6 +14,9 @@ export class ApiService {
     const url = `${this.baseUrl}/register`;
     return this.http.post(url, data);
   }
-
+  login(data: any): Observable<any> {
+    const url = `${this.baseUrl}/login`;
+    return this.http.post(url, data);
+  }
   // Add other API methods as needed
 }

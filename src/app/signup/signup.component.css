@@ -1,6 +1,19 @@
-.error-message {
-    color: red;
-    margin-top: 5px;
-    font-size: 12px;
-  }
-  
+
+.card {
+  border: ridge;
+}
+.flex-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.card-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(167, 38, 38);
+  text-align: center;
+  color: white;
+  padding: 20px;
+
+}

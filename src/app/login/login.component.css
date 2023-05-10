@@ -1,0 +1,9 @@
+.card-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(167, 38, 38);
+    text-align: center;
+    color: white;
+    padding: 20px;
+  
+  }
